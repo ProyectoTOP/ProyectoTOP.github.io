@@ -110,21 +110,20 @@
   }
 
   .u-section-1 .u-slider-1 {
-    margin-top: 55px;
+    margin-top: 60px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 54px;
-    margin-left: 253px;
+    margin-top: 60px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-left: -16px;
-    margin-right: -16px;
-    margin-bottom: 55px;
+    margin: 48px -16px 60px;
   }
 }.u-section-2 .u-sheet-1 {
   min-height: 693px;
@@ -622,7 +621,7 @@
   }
 
   .u-section-3 .u-layout-wrap-1 {
-    margin-top: -62px;
+    margin-top: 20px;
     margin-right: initial;
   }
 
