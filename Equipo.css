@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 1210px;
+  min-height: 1470px;
 }
 
 .u-section-1 .u-text-1 {
@@ -13,43 +13,77 @@
   margin: 20px 50px 0 0;
 }
 
+.u-section-1 .u-list-1 {
+  width: 1075px;
+  min-height: 292px;
+  height: auto;
+  margin: -39px auto 0 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  grid-gap: 10px 10px;
+  grid-auto-columns: calc(50% - 5px);
+  grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+  grid-auto-rows: 100%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 497px;
+  height: 177px;
+  margin: 0 auto 0 -24px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-2 {
+  width: 497px;
+  height: 177px;
+  margin: 0 auto 0 -24px;
+}
+
 .u-section-1 .u-text-3 {
   font-size: 2.25rem;
   font-weight: 700;
-  margin: 12px 275px 0 0;
+  margin: 6px 275px 0 0;
 }
 
 .u-section-1 .u-text-4 {
   font-size: 1.25rem;
-  margin: 24px 50px 0 0;
+  margin: 20px 50px 0 0;
 }
 
 .u-section-1 .u-text-5 {
   font-size: 2.25rem;
   font-weight: 700;
-  margin: 36px 276px 0 0;
+  margin: 50px 276px 0 0;
 }
 
-.u-section-1 .u-list-1 {
+.u-section-1 .u-list-2 {
   height: auto;
   min-height: 515px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 0;
   margin-left: 0;
 }
 
-.u-section-1 .u-repeater-1 {
+.u-section-1 .u-repeater-2 {
   grid-template-columns: 33.3333% 33.3333% 33.3333%;
   min-height: 515px;
   grid-gap: 0px 0px;
   grid-auto-rows: 100%;
 }
 
-.u-section-1 .u-container-layout-1 {
+.u-section-1 .u-container-layout-3 {
   padding: 30px 40px;
 }
 
-.u-section-1 .u-image-1 {
+.u-section-1 .u-image-3 {
   width: 253px;
   height: 253px;
   background-image: url("images/MichelaCarlana.jpg");
@@ -70,11 +104,11 @@
   margin: 20px auto 0;
 }
 
-.u-section-1 .u-container-layout-2 {
+.u-section-1 .u-container-layout-4 {
   padding: 30px 40px;
 }
 
-.u-section-1 .u-image-2 {
+.u-section-1 .u-image-4 {
   width: 253px;
   height: 253px;
   background-image: url("images/ElianaLaFerrara.jpg");
@@ -95,11 +129,11 @@
   margin: 20px auto 0;
 }
 
-.u-section-1 .u-container-layout-3 {
+.u-section-1 .u-container-layout-5 {
   padding: 30px 40px;
 }
 
-.u-section-1 .u-image-3 {
+.u-section-1 .u-image-5 {
   width: 253px;
   height: 253px;
   background-image: url("images/AstridPineda.jpg");
@@ -122,7 +156,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1120px;
+    min-height: 1380px;
   }
 
   .u-section-1 .u-text-1 {
@@ -131,6 +165,14 @@
 
   .u-section-1 .u-text-2 {
     margin-right: 0;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 940px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: repeat(2, calc(50% - 5px));
   }
 
   .u-section-1 .u-text-3 {
@@ -145,27 +187,27 @@
     margin-right: 76px;
   }
 
-  .u-section-1 .u-list-1 {
+  .u-section-1 .u-list-2 {
     min-height: 425px;
     margin-left: initial;
   }
 
-  .u-section-1 .u-repeater-1 {
+  .u-section-1 .u-repeater-2 {
     grid-template-columns: repeat(3, 33.3333%);
     min-height: 425px;
   }
 
-  .u-section-1 .u-container-layout-1 {
+  .u-section-1 .u-container-layout-3 {
     padding-left: 21px;
     padding-right: 21px;
   }
 
-  .u-section-1 .u-container-layout-2 {
+  .u-section-1 .u-container-layout-4 {
     padding-left: 21px;
     padding-right: 21px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-4 {
     width: 227px;
     height: 227px;
   }
@@ -176,12 +218,12 @@
     margin-right: 19px;
   }
 
-  .u-section-1 .u-container-layout-3 {
+  .u-section-1 .u-container-layout-5 {
     padding-left: 21px;
     padding-right: 21px;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-5 {
     width: 227px;
     height: 227px;
   }
@@ -195,11 +237,21 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1762px;
+    min-height: 1932px;
   }
 
   .u-section-1 .u-text-1 {
     margin-right: 131px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 720px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-auto-columns: calc(100% - 0px);
+    grid-template-columns: 100%;
+    grid-auto-rows: calc(50% - 5px);
   }
 
   .u-section-1 .u-text-3 {
@@ -210,12 +262,12 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-list-1 {
+  .u-section-1 .u-list-2 {
     min-height: 977px;
     margin-left: initial;
   }
 
-  .u-section-1 .u-repeater-1 {
+  .u-section-1 .u-repeater-2 {
     grid-template-columns: repeat(2, 50%);
     min-height: 977px;
     grid-auto-rows: 50%;
@@ -233,17 +285,16 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 2334px;
-  }
-
   .u-section-1 .u-text-1 {
     margin-right: 0;
   }
 
+  .u-section-1 .u-list-1 {
+    width: 540px;
+  }
+
   .u-section-1 .u-repeater-1 {
-    grid-template-columns: 100%;
-    grid-auto-rows: 33.33%;
+    grid-auto-columns: 100%;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -251,23 +302,14 @@
     padding-right: 10px;
   }
 
-  .u-section-1 .u-image-1 {
-    width: 252px;
-    height: 252px;
-  }
-
-  .u-section-1 .u-text-6 {
-    width: auto;
-  }
-
   .u-section-1 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .u-section-1 .u-image-2 {
-    width: 252px;
-    height: 252px;
+  .u-section-1 .u-repeater-2 {
+    grid-template-columns: 100%;
+    grid-auto-rows: 33.33%;
   }
 
   .u-section-1 .u-container-layout-3 {
@@ -279,15 +321,55 @@
     width: 252px;
     height: 252px;
   }
+
+  .u-section-1 .u-text-6 {
+    width: auto;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-4 {
+    width: 252px;
+    height: 252px;
+  }
+
+  .u-section-1 .u-container-layout-5 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-5 {
+    width: 252px;
+    height: 252px;
+  }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-list-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 320px;
+    height: 114px;
+    margin-left: 0;
+  }
+
   .u-section-1 .u-image-2 {
+    width: 320px;
+    height: 114px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-image-4 {
     width: 268px;
     height: 268px;
   }
 
-  .u-section-1 .u-image-3 {
+  .u-section-1 .u-image-5 {
     width: 268px;
     height: 268px;
   }
